@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Timer</title>
+    <link rel="stylesheet" href="todoliststyle.css">
+    <script defer src="todolistscript.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-Do List <span class="theme-toggle">🌙</span></h1>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <input type="number" id="task-timer" placeholder="Minutes" min="1">
+            <button id="add-task">+</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <audio id="alarm" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+</body>
+
+</html>
